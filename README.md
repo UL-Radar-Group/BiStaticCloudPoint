@@ -5,10 +5,11 @@ Cloud Point for Bistatic Array Radar
 ![Alt Simulation Output](https://github.com/UL-Radar-Group/BiStaticCloudPoint/blob/main/Output.PNG?raw=true "Output")
 
 # Input example:
-##  User inputs : Transmitter - Receiver Position
+### User inputs : Transmitter - Receiver Position
 sim.TX_Position = [-1 1.3]*1;
+
 sim.RX_Position = [2.1 -1.2]*1;
-###  User inputs : Transmitter - Receiver Elements
+### User inputs : Transmitter - Receiver Elements
 sim.RX_N = 8;
 sim.TX_N = 6;
 sim.setTRXPos(1,0,0);
